@@ -1,4 +1,9 @@
 /* styles.css */
+body {
+  background-color: black;
+  color: white; /* Optional: change text color to white for contrast */
+}
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 75px;
@@ -9,4 +14,13 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
   text-align: center;
+}
+
+
+.centered-image {
+  display: block;       /* Makes the image a block-level element */
+  margin: 20px auto;    /* Centers the image horizontally and adds vertical spacing */
+  max-width: 100%;      /* Ensures the image is responsive */
+  width: 300px;         /* Adjust width (optional, set as needed) */
+  height: auto;         /* Maintains the aspect ratio */
 }
